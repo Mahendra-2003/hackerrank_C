@@ -1,3 +1,20 @@
+QUESTION LINK
+-------------
+https://www.hackerrank.com/challenges/functions-in-c/problem?isFullScreen=true
+
+Sample Input
+------------
+3
+4
+6
+5
+
+Sample Output
+-------------
+6
+
+PROGRAM
+-------
 #include <stdio.h>
 int max(int a,int b,int c,int d){
     scanf("%d %d %d %d",&a,&b,&c,&d);
@@ -9,8 +26,6 @@ int max(int a,int b,int c,int d){
     return c;
     else
     return d;
-
-    
 }
 
 int main() {
