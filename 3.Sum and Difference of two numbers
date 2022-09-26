@@ -1,5 +1,20 @@
-#include <stdio.h>
+QUESTION LINK
+-------------
+https://www.hackerrank.com/challenges/sum-numbers-c/problem?isFullScreen=true
 
+Sample Input
+------------
+10 4
+4.0 2.0
+
+Sample Output
+-------------
+14 6
+6.0 2.0
+
+PROGRAM
+-------
+#include <stdio.h>
 int main()
 {int a,b;
 float c,d;
