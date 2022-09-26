@@ -1,0 +1,33 @@
+QUESTION LINK
+-------------
+https://www.hackerrank.com/challenges/playing-with-characters/problem?isFullScreen=true
+
+Sample Input
+------------
+C
+Language
+Welcome To C!!
+
+Sample Output
+-------------
+C
+Language
+Welcome To C!!
+
+PROGRAM
+-------
+#include <stdio.h>
+int main() 
+{
+char ch;int i;
+char s[100],sen[1000];
+scanf("%c",&ch);
+scanf("%s",&s);
+for(i=0;i<100;i++)
+scanf("%c",&sen[i]);
+printf("%c\n",ch);
+printf("%s",s);
+for(i=0;i<strlen(sen);i++)
+printf("%c",sen[i]);
+    return 0;
+}
