@@ -1,0 +1,25 @@
+QUESTION LINK
+-------------
+https://www.hackerrank.com/challenges/hello-world-c/problem?isFullScreen=true(Link)
+
+Sample Input
+------------
+Welcome to C programming.
+
+Sample Output
+-------------
+Hello, World!
+Welcome to C programming.
+
+
+PROGRAM
+-------
+#include <stdio.h>
+int main() 
+{
+    char s[100];
+    scanf("%[^\n]%*c", &s);
+  	printf("Hello, World!\n");
+      printf("%s", s);
+          return 0;
+}
