@@ -1,0 +1,27 @@
+QUESTION LINK
+-------------
+https://www.hackerrank.com/challenges/sum-of-digits-of-a-five-digit-number/problem?isFullScreen=true
+
+Sample Input
+------------
+10564
+
+Sample Output
+-------------
+16
+
+PROGRAM
+-------
+#include <stdio.h>
+int main() {
+    int n,sum=0,x;
+    scanf("%d",&n);
+    while(n!=0)
+    {
+        x=n%10;
+        sum=sum+x;
+        n=n/10;
+    }
+    printf("%d",sum);
+    return 0;
+}
