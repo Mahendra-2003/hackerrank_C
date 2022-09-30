@@ -1,0 +1,27 @@
+QUESTION LINK
+-------------
+https://www.hackerrank.com/challenges/1d-arrays-in-c/problem?isFullScreen=true
+
+Sample Input
+------------
+6
+16 13 7 2 1 12
+
+Sample Output
+-------------
+51
+
+PROGRAM
+-------
+#include <stdio.h>
+int main() {
+    int a[1000],i,n,sum=0;
+    scanf("%d",&n);
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+        sum=sum+a[i];
+    }
+    printf("%d",sum);
+    return 0;
+}
