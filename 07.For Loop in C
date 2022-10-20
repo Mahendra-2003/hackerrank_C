@@ -13,8 +13,7 @@ eight
 nine
 even
 odd
-even
-
+eve
 PROGRAM
 -------
 #include <stdio.h>
